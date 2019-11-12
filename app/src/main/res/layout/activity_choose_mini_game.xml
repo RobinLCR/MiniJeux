@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseMiniGame">
+
+    <TextView
+        android:id="@+id/chose_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="40dp"
+        android:gravity="center"
+        android:text="Quel minijeu voulez-vous essayer ?"/>
+
+    <Button
+        android:id="@+id/miniGame1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Jeu n°1"/>
+
+    <Button
+        android:id="@+id/miniGame2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Jeu n°2"/>
+
+    <Button
+        android:id="@+id/miniGame3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Jeu n°3"/>
+
+</LinearLayout>
